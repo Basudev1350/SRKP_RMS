@@ -3,28 +3,93 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SRKP GST| @yield('title')</title>
-  <!-- <script src="{{ asset('js/app.js') }}" defer></script>
- 
+  <title>SRKP RMS </title>
+  <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
- 
-  <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
-  
-  <link rel="stylesheet" href="{{asset('plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
-  <link rel="stylesheet" href="{{asset('plugins/datatables-bs4/css/dataTables.bootstrap4.min.css')}}">
-  <link rel="stylesheet" href="{{asset('plugins/datatables-responsive/css/responsive.bootstrap4.min.css')}}">
-  <link rel="stylesheet" href="{{asset('plugins/datatables-buttons/css/buttons.bootstrap4.min.css')}}">
-  <link rel="stylesheet" href="{{asset('plugins/select2/css/select2.min.css')}}">
-  <link rel="stylesheet" href="{{asset('plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css')}}">
-  
-  <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}"> -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{{asset('css/fontawesome-free/css/all.min.css')}}">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="{{asset('css/jqvmap.min.css')}}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{asset('css/adminlte.min.css')}}">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="{{asset('css/OverlayScrollbars.min.css')}}">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="{{asset('css/daterangepicker.css')}}">
 </head>
-  <body class="sidebar-mini layout-navbar-fixed layout-fixed text-sm">
-      
-    <div id="ExampleComponent">
+<body class="hold-transition login-page">
+
+<div id="ExampleComponent">
       @yield('ExampleComponent')
-    </div>
-    
-      
-    </body>
+</div>
+
+<div id="dashboard">
+      @yield('dashboard')
+</div>
+
+<div id="categorywiseReport">
+      @yield('categorywiseReport')
+</div>
+
+<div id="customReport">
+      @yield('customReport')
+</div>
+
+<div id="manageCategory">
+      @yield('manageCategory')
+</div>
+
+<div id="manageCompany">
+      @yield('manageCompany')
+</div>
+
+<div id="manageGroups">
+      @yield('manageGroups')
+</div>
+
+<div id="manageOrders">
+      @yield('manageOrders')
+</div>
+
+<div id="manageProducts">
+      @yield('manageProducts')
+</div>
+
+<div id="manageStore">
+      @yield('manageStore')
+</div>
+
+<div id="manageTables">
+      @yield('manageTables')
+</div>
+
+<div id="manageUsers">
+      @yield('manageUsers')
+</div>
+
+<div id="menuwiseReport">
+      @yield('menuwiseReport')
+</div>
+
+<div id="productAssembly">
+      @yield('productAssembly')
+</div>
+
+<div id="productwiseReport">
+      @yield('productwiseReport')
+</div>
+
+<!-- jQuery -->
+<script src="{{asset('js/jquery.min.js')}}"></script>
+<!-- Bootstrap 4 -->
+<script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+<!-- ChartJS -->
+<script src="{{asset('js/Chart.min.js')}}"></script>
+<!-- overlayScrollbars -->
+<script src="{{asset('js/jquery.overlayScrollbars.min.js')}}"></script>
+<!-- AdminLTE App -->
+<script src="{{asset('js/adminlte.js')}}"></script>
+</body>
 </html>

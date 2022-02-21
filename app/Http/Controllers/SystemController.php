@@ -87,4 +87,8 @@ class SystemController extends Controller
   {
     return view('user.rawMaterials');//folder.bladefile name
   }
+  public function viewallProducts()
+  {
+    return view('user.viewallProducts');//folder.bladefile name
+  }
 }

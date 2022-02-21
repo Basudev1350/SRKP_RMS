@@ -31,6 +31,7 @@ import MenuwiseReport      from './components/user/menuwiseReport'
 import ProductAssembly     from './components/user/productAssembly'
 import ProductwiseReport   from './components/user/productwiseReport'
 import RawMaterials        from './components/user/rawMaterials'
+import ViewallProducts     from './components/user/viewallProducts'
 
 export default {
     mode: 'history',
@@ -115,6 +116,11 @@ export default {
             path: '/raw-materials',
             component: RawMaterials,
             name: 'raw-materials'
+        },
+        {
+            path: '/view-all-products',
+            component: ViewallProducts,
+            name: 'view-all-products'
         },
     ]
 }

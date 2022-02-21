@@ -85,6 +85,10 @@
       @yield('rawMaterials')
 </div>
 
+<div id="viewallProducts">
+      @yield('viewallProducts')
+</div>
+
 <!-- jQuery -->
 <script src="{{asset('js/jquery.min.js')}}"></script>
 <!-- Bootstrap 4 -->

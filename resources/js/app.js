@@ -88,3 +88,7 @@ const rawMaterials = new Vue({
     el: '#rawMaterials',
     router: new VueRouter(routes)
 });
+const viewallProducts = new Vue({
+    el: '#viewallProducts',
+    router: new VueRouter(routes)
+});

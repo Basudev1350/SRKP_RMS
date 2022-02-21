@@ -60407,99 +60407,162 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-/* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_bootstrap__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
-/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./routes */ "./resources/js/routes.js");
-// require('./bootstrap');
-// window.Vue = require('vue');
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm-bundler.js");
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./routes */ "./resources/js/routes.js");
+// import './bootstrap'
 // import Vue from 'vue'
-// import VueRouter from 'vue-router'
-// import routes from './routes';
-// Vue.use(VueRouter);
-// newFunction();
-// function newFunction()
-// {
-//   const ExampleComponent = new Vue({
+// import Router from 'vue-router';
+// import routes from './routes'
+// Vue.use(Router);
+// const ExampleComponent = new Vue({
 //     el: '#ExampleComponent',
 //     router: new VueRouter(routes)
-//   });
-// }
+// });
+// const dashboard = new Vue({
+//     el: '#dashboard',
+//     router: new VueRouter(routes)
+// });
+// const categorywiseReport = new Vue({
+//     el: '#categorywiseReport',
+//     router: new VueRouter(routes)
+// });
+// const customReport = new Vue({
+//     el: '#customReport',
+//     router: new VueRouter(routes)
+// });
+// const manageCategory = new Vue({
+//     el: '#manageCategory',
+//     router: new VueRouter(routes)
+// });
+// const manageCompany = new Vue({
+//     el: '#manageCompany',
+//     router: new VueRouter(routes)
+// });
+// const manageGroups = new Vue({
+//     el: '#manageGroups',
+//     router: new VueRouter(routes)
+// });
+// const manageOrders = new Vue({
+//     el: '#manageOrders',
+//     router: new VueRouter(routes)
+// });
+// const manageProducts = new Vue({
+//     el: '#manageProducts',
+//     router: new VueRouter(routes)
+// });
+// const manageStore = new Vue({
+//     el: '#manageStore',
+//     router: new VueRouter(routes)
+// });
+// const manageTables = new Vue({
+//     el: '#manageTables',
+//     router: new VueRouter(routes)
+// });
+// const manageUsers = new Vue({
+//     el: '#manageUsers',
+//     router: new VueRouter(routes)
+// });
+// const menuwiseReport = new Vue({
+//     el: '#menuwiseReport',
+//     router: new VueRouter(routes)
+// });
+// const productAssembly = new Vue({
+//     el: '#productAssembly',
+//     router: new VueRouter(routes)
+// });
+// const productwiseReport = new Vue({
+//     el: '#productwiseReport',
+//     router: new VueRouter(routes)
+// });
+// const rawMaterials = new Vue({
+//     el: '#rawMaterials',
+//     router: new VueRouter(routes)
+// });
+// const viewallProducts = new Vue({
+//     el: '#viewallProducts',
+//     router: new VueRouter(routes)
+// });
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 
 
 
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__);
+newFunction();
 
-vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]);
-var ExampleComponent = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#ExampleComponent',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var dashboard = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#dashboard',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var categorywiseReport = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#categorywiseReport',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var customReport = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#customReport',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var manageCategory = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#manageCategory',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var manageCompany = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#manageCompany',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var manageGroups = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#manageGroups',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var manageOrders = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#manageOrders',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var manageProducts = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#manageProducts',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var manageStore = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#manageStore',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var manageTables = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#manageTables',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var manageUsers = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#manageUsers',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var menuwiseReport = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#menuwiseReport',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var productAssembly = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#productAssembly',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var productwiseReport = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#productwiseReport',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var rawMaterials = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#rawMaterials',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
-var viewallProducts = new vue__WEBPACK_IMPORTED_MODULE_1___default.a({
-  el: '#viewallProducts',
-  router: new VueRouter(_routes__WEBPACK_IMPORTED_MODULE_3__["default"])
-});
+function newFunction() {
+  var ExampleComponent = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#ExampleComponent',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var dashboard = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#dashboard',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var categorywiseReport = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#categorywiseReport',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var customReport = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#customReport',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var manageCategory = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#manageCategory',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var manageCompany = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#manageCompany',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var manageGroups = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#manageGroups',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var manageOrders = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#manageOrders',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var manageProducts = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#manageProducts',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var manageStore = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#manageStore',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var manageTables = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#manageTables',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var manageUsers = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#manageUsers',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var menuwiseReport = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#menuwiseReport',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var productAssembly = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#productAssembly',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var productwiseReport = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#productwiseReport',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var rawMaterials = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#rawMaterials',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+  var viewallProducts = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
+    el: '#viewallProducts',
+    router: new vue_router__WEBPACK_IMPORTED_MODULE_1__(_routes__WEBPACK_IMPORTED_MODULE_2__["default"])
+  });
+}
 
 /***/ }),
 
@@ -61746,17 +61809,112 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_user_productAssembly__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/user/productAssembly */ "./resources/js/components/user/productAssembly.vue");
 /* harmony import */ var _components_user_productwiseReport__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/user/productwiseReport */ "./resources/js/components/user/productwiseReport.vue");
 /* harmony import */ var _components_user_rawMaterials__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/user/rawMaterials */ "./resources/js/components/user/rawMaterials.vue");
-/* harmony import */ var _components_user_viewallProducts__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/user/viewallProducts */ "./resources/js/components/user/viewallProducts.vue");
-// import ExampleComponent from './components/ExampleComponent';
-// export default{   
+/* harmony import */ var _components_user_viewallProducts__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/user/viewallProducts */ "./resources/js/components/user/viewallProducts.vue");
+// import ExampleComponent    from './components/user/ExampleComponent';
+// import Dashboard           from './components/user/dashboard'
+// import CategorywiseReport  from './components/user/categorywiseReport'
+// import CustomReport        from './components/user/customReport'
+// import ManageCategory      from './components/user/manageCategory'
+// import ManageCompany       from './components/user/manageCompany'
+// import ManageGroups        from './components/user/manageGroups'
+// import ManageOrders        from './components/user/manageOrders'
+// import ManageProducts      from './components/user/manageProducts'
+// import ManageStore         from './components/user/manageStore'
+// import ManageTables        from './components/user/manageTables'
+// import ManageUsers         from './components/user/manageUsers'
+// import MenuwiseReport      from './components/user/menuwiseReport'
+// import ProductAssembly     from './components/user/productAssembly'
+// import ProductwiseReport   from './components/user/productwiseReport'
+// import RawMaterials        from './components/user/rawMaterials'
+// import ViewallProducts     from './components/user/viewallProducts'
+// export default {
 //     mode: 'history',
-//     linkActiveClass: 'font-semibold',
-//     routes: [ 
-//             {
-//                 path: '/example',
-//                 component: ExampleComponent,
-//                 name: 'ExampleComponent'
-//             },
+//     routes: [
+//         {
+//             path: '/example',
+//             component: ExampleComponent,
+//             name: 'example'
+//         },
+//         {
+//             path: '/dashboard',
+//             component: Dashboard,
+//             name: 'dashboard'
+//         },
+//         {
+//             path: '/category-wise-report',
+//             component: CategorywiseReport,
+//             name: 'category-wise-report'
+//         },
+//         {
+//             path: '/custom-report',
+//             component: CustomReport,
+//             name: 'custom-report'
+//         },
+//         {
+//             path: '/manage-category',
+//             component: ManageCategory,
+//             name: 'manage-category'
+//         },
+//         {
+//             path: '/manage-company',
+//             component: ManageCompany,
+//             name: 'manage-company'
+//         },
+//         {
+//             path: '/manage-groups',
+//             component: ManageGroups,
+//             name: 'manage-groups'
+//         },
+//         {
+//             path: '/manage-orders',
+//             component: ManageOrders,
+//             name: 'manage-orders'
+//         },
+//         {
+//             path: '/manage-products',
+//             component: ManageProducts,
+//             name: 'manage-products'
+//         },
+//         {
+//             path: '/manage-store',
+//             component: ManageStore,
+//             name: 'manage-store'
+//         },
+//         {
+//             path: '/manage-tables',
+//             component: ManageTables,
+//             name: 'manage-tables'
+//         },
+//         {
+//             path: '/manage-users',
+//             component: ManageUsers,
+//             name: 'manage-users'
+//         },
+//         {
+//             path: '/menu-wise-report',
+//             component: MenuwiseReport,
+//             name: 'menu-wise-report'
+//         },
+//         {
+//             path: '/product-assembly',
+//             component: ProductAssembly,
+//             name: 'product-assembly'
+//         },
+//         {
+//             path: '/product-wise-report',
+//             component: ProductwiseReport,
+//             name: 'product-wise-report'
+//         },
+//         {
+//             path: '/raw-materials',
+//             component: RawMaterials,
+//             name: 'raw-materials'
+//         },
+//         {
+//             path: '/view-all-products',
+//             component: ViewallProducts,
+//             name: 'view-all-products'
+//         },
 //     ]
 // }
 
@@ -61774,10 +61932,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+ // import ViewallProducts     from './components/user/viewallProducts'
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mode: 'history',
+  linkActiveClass: 'font-semibold',
   routes: [{
     path: '/example',
     component: _components_user_ExampleComponent__WEBPACK_IMPORTED_MODULE_0__["default"],
@@ -61844,23 +62004,10 @@ __webpack_require__.r(__webpack_exports__);
     name: 'raw-materials'
   }, {
     path: '/view-all-products',
-    component: _components_user_viewallProducts__WEBPACK_IMPORTED_MODULE_17__["default"],
+    component: _components_user_viewallProducts__WEBPACK_IMPORTED_MODULE_16__["default"],
     name: 'view-all-products'
   }]
-}); // import Vue from 'vue'
-// import VueRouter from 'vue-router'
-// import ExampleComponent from './components/ExampleComponent';
-// Vue.use(VueRouter)
-// const routes = [
-//     {
-//                         path: '/example',
-//                         component: ExampleComponent,
-//                         name: 'ExampleComponent'
-//                     },
-// ]
-// export default new VueRouter({
-//     routes
-// })
+});
 
 /***/ }),
 

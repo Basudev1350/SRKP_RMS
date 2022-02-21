@@ -81,6 +81,10 @@
       @yield('productwiseReport')
 </div>
 
+<div id="rawMaterials">
+      @yield('rawMaterials')
+</div>
+
 <!-- jQuery -->
 <script src="{{asset('js/jquery.min.js')}}"></script>
 <!-- Bootstrap 4 -->

@@ -30,6 +30,7 @@ import ManageUsers         from './components/user/manageUsers'
 import MenuwiseReport      from './components/user/menuwiseReport'
 import ProductAssembly     from './components/user/productAssembly'
 import ProductwiseReport   from './components/user/productwiseReport'
+import RawMaterials        from './components/user/rawMaterials'
 
 export default {
     mode: 'history',
@@ -109,6 +110,11 @@ export default {
             path: '/product-wise-report',
             component: ProductwiseReport,
             name: 'product-wise-report'
+        },
+        {
+            path: '/raw-materials',
+            component: RawMaterials,
+            name: 'raw-materials'
         },
     ]
 }

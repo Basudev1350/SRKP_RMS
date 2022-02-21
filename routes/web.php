@@ -36,4 +36,6 @@ Route::get('/manage-users', 'SystemController@manageUsers');
 Route::get('/menu-wise-report', 'SystemController@menuwiseReport');
 Route::get('/product-assembly', 'SystemController@productAssembly');
 Route::get('/product-wise-report', 'SystemController@productwiseReport');
+Route::get('/raw-materials', 'SystemController@rawMaterials');
+
 

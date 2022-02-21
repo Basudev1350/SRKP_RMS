@@ -83,4 +83,8 @@ class SystemController extends Controller
   {
     return view('user.productwiseReport');//folder.bladefile name
   }
+  public function rawMaterials()
+  {
+    return view('user.rawMaterials');//folder.bladefile name
+  }
 }

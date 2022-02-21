@@ -84,3 +84,7 @@ const productwiseReport = new Vue({
     el: '#productwiseReport',
     router: new VueRouter(routes)
 });
+const rawMaterials = new Vue({
+    el: '#rawMaterials',
+    router: new VueRouter(routes)
+});
